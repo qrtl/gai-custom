@@ -10,13 +10,13 @@ class SaleOrder(models.Model):
 #   Char, Float, Integer, Text
 #   Many2one, Many2many, One2many
     order_reference = fields.Char(
-        string="Order Reference",
+        string="Custom Reference",
 #       required=True,
 #       readonly=True,
 #       track_visibility='always',
 #       compute='_compute_order_reference'
     )
     
-    def _compute_order_reference(self):
-        for order in self:
-            order.order_reference = order.partner_id.ref
+#     def _compute_order_reference(self):
+#         for order in self:
+#             order.order_reference = order.partner_id.ref

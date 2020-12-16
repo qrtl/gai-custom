@@ -2,7 +2,7 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 {
     "name": "Sale Order Reference",
-    "version": "14.0.1.0.0",
+    "version": "13.0.1.0.0",
     "category": "Sale",
     "author": "Quartile Limited",
     "website": "https://www.quartile.co/",
