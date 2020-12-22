@@ -1,0 +1,64 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_custom_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 14:23+0000\n"
+"PO-Revision-Date: 2020-12-22 14:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_custom_management
+#: model:ir.ui.menu,name:sale_custom_management.report_custom_menu
+msgid "Custom Report"
+msgstr "カスタマイズレポート"
+
+#. module: sale_custom_management
+#: model_terms:ir.ui.view,arch_db:sale_custom_management.sale_order_custom_tree_view
+msgid "Order Number"
+msgstr "注文番号"
+
+#. module: sale_custom_management
+#: model:ir.actions.act_window,name:sale_custom_management.sale_order_action
+#: model:ir.ui.menu,name:sale_custom_management.sale_order_menu
+msgid "Orders"
+msgstr "オーダ"
+
+#. module: sale_custom_management
+#: model:ir.ui.menu,name:sale_custom_management.sale_report_menu
+msgid "Reports"
+msgstr "レポート"
+
+#. module: sale_custom_management
+#: model:ir.actions.act_window,name:sale_custom_management.sale_order_report_action
+msgid "Report"
+msgstr "レポート"
+
+#. module: sale_custom_management
+#: model:ir.ui.menu,name:sale_custom_management.sale_order_custom_menu
+msgid "Sale Order"
+msgstr "オーダ"
+
+#. module: sale_custom_management
+#: model:ir.ui.menu,name:sale_custom_management.sale_management_menu_root
+msgid "Sales Management"
+msgstr "販売管理"
+
+#. module: sale_custom_management
+#: model_terms:ir.ui.view,arch_db:sale_custom_management.sale_order_custom_tree_view
+#: model_terms:ir.ui.view,arch_db:sale_custom_management.view_sale_order_pivot
+msgid "Sales Orders"
+msgstr "オーだ"
+
+#. module: sale_custom_management
+#: model_terms:ir.ui.view,arch_db:sale_custom_management.sale_order_custom_tree_view
+msgid "Total Tax Included"
+msgstr "税込合計"
+
