@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_hr_job_seeker" model="ir.ui.view">
+        <field name="name">hr.job.seeker.tree</field>
+        <field name="model">hr.job.seeker</field>
+        <field name="arch" type="xml">
+            <tree string="Job Seekers" editable="top">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_hr_job_seekers">
+        <field name="name">Job Seekers</field>
+        <field name="res_model">hr.job.seeker</field>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="view_hr_job_seeker"/>
+    </record>
+    <menuitem
+        id="menu_hr_job_seekers"
+        name="Job Seekers"
+        parent="hr_recruitment.menu_hr_recruitment_configuration"
+        action="action_hr_job_seekers"
+        sequence="100"/>
+</odoo>
